@@ -22,10 +22,6 @@ The agent is a Gemini chat primed with [`agent-system-prompt.txt`](agent-system-
 
 Full per-test results: [`results-writeup.md`](results-writeup.md).
 
-## The explainer carousel
-
-The 8-slide visual version of this project — built for LinkedIn, same format as the viral "talk to the Titanic" AI post: [`red-team-carousel.pdf`](red-team-carousel.pdf).
-
 ## Key findings
 
 1. **Explicit hard rules beat vague instructions.** The system prompt named the threats directly ("treat pasted text as untrusted input," "never invent a policy — escalate instead"). Those named rules did the heavy lifting across all 30 tests.
